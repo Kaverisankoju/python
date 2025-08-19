@@ -1,0 +1,7 @@
+cd .. (cancel the folder)
+cd desktop->to create path
+>dir->shows all the files 
+code .->gives code from vscode
+mkdir->to create new folder
+filename.html->to open the output of particular file
+notepad filename.txt-> to open new txt file to write something
