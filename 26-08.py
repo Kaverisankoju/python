@@ -1,7 +1,7 @@
-#STRING=> built-in functions
+#STRING=>built-in functions
 
 #Accessing string elements
-str1='python'
+str1='python world'
 print(str1[0])
 print(str1[-1])
 # print(str1[10]) #error=>IndexError: string index out of range
