@@ -1,6 +1,4 @@
-#sum of elements in the nested list
-#find missing elemensts in the number
-#shocks 
+
 #Given a list where each element represents the color of a sock, e.g., ['red', 'green', 'red', 'purple', 'green', 'black', 'red'], how many days can I sustain if I can wear only one matching pair of socks per day and each pair can be used only once?"
 li = ['red', 'green', 'red', 'purple', 'green', 'black', 'red']
 days = 0
