@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+.nav-container{
+    padding: 10px;
+    border: 0px solid;
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+    background-color:lightgray;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 80px;
+    height: 800px;
+    cursor: pointer;
+}
+.icon-1,.icon-2,.icon-3,.icon-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0; 
+}
+
+.bi{
+    font-size:xx-large;
+}
+.nav-container1{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    position: fixed;   
+    top: 0;           
+    
+}   
+.nav-container2{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+}
+.bi:hover{
+    color:darkgray;
+}
+.nav-container4{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 6px;
+    width: 80%;
+    align-items: center;
+    background-color: #B2BEB5;
+    color:black;
+    position: fixed;
+    top:60px;
+    left: 15%;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.ico1{
+    color: white;
+    background-color: blue;
+    border-radius: 9px;
+}
+.ico8{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+.ico15{
+    background-color: red;
+    border-radius: 10px;
+}
+
+    

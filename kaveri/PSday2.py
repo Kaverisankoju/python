@@ -285,8 +285,21 @@
 #     print(n,'not a harshad number')
 
 #29=>
-n=int(input('enter a number:'))
-a,b=0,1
-for i in range(1,n+1):
-    print(a, end=" ")
-    a,b=b,a+b
+# n=int(input('enter a number:'))
+# a,b=0,1
+# for i in range(n):
+#     print(a, end=" ")
+#     a,b=b,a+b
+
+#30=>
+# n=int(input('enter a number:'))
+# square=n*n
+# digit_sum=0
+# while square>0:
+#     digit=square%10
+#     digit_sum+=digit
+#     square//=10
+# if digit_sum==n:
+#     print(n,'is neon number')
+# else:
+#     print(n,'not a neon number')

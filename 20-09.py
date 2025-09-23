@@ -4,10 +4,8 @@ u = []
 d = []
 for i in li:
     if li.count(i) == 1:
-        u.append(i)
-        
+        u.append(i) 
     else:
-    
         if li.count(i) > 1:
             if i not in d:
                 d.append(i)
@@ -116,5 +114,15 @@ sum_val = 0
 for row in matrix:
     for num in row:
         sum_val += num
+print(sum_val)
+        
+matrix = [[1,2,3],
+          [5,6,7],
+          [2,3,1]
+]
+sum_val = 0
+for row in range(0,len(matrix)):
+    for num in range(len(matrix[row])):
+        sum_val += matrix[row][num]
 print(sum_val)
         

@@ -40,17 +40,17 @@ class Marks:
         self.python_marks=python_marks
         self.HTML_marks=HTML_marks
     def __add__(self,other):
-        print(self.python_marks+self.HTML_marks)
-        print(other.python_marks+other.HTML_marks)  
+        print("Addition is",self.python_marks+self.HTML_marks)
+        print("Addition is",other.python_marks+other.HTML_marks)  
     def __sub__(self,other):
-        print(self.python_marks-self.HTML_marks)
-        print(other.python_marks-other.HTML_marks) 
+        print("substraction is",self.python_marks-self.HTML_marks)
+        print("substraction is",other.python_marks-other.HTML_marks) 
     def __mul__(self,other):
-        print(self.python_marks*self.HTML_marks)
-        print(other.python_marks*other.HTML_marks) 
+        print("multiplication is",self.python_marks*self.HTML_marks)
+        print("multiplication is",other.python_marks*other.HTML_marks) 
     def __truediv__(self,other):
-        print(self.python_marks/self.HTML_marks)
-        print(other.python_marks/other.HTML_marks)         
+        print("division is ",self.python_marks/self.HTML_marks)
+        print("division is ",other.python_marks/other.HTML_marks)         
 m1=Marks(90,90)   
 m2=Marks(95,85)
 m1+m2

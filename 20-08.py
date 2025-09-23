@@ -56,4 +56,24 @@ def prime_numbers(n):
 n1=int(input("enter a number:"))
 prime_numbers(n1)
             
-            
+def amstrong_num(n):
+    temp=n
+    sum=0
+    power=0
+    while temp>0:
+        digit=temp%10
+        power+=1
+        temp//=10
+    print(power)
+    temp=n
+    while temp>0:
+        digit=temp%10
+        sum+=digit**power
+        temp//=10
+    if n==sum:
+        print(sum,"amstrong")
+    else:
+        print(sum,"not amstrong")
+n1=int(input("enter a number:"))
+amstrong_num(n1)
+    

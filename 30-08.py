@@ -51,15 +51,16 @@
 
 
 
+#METHOD-1
+# a,b,c=2,1,3
+# if a<=b and a<=c:
+#     print(b+c)
+# elif b<=c and b<=a:
+#     print(a+c)
+# else:
+#     print(a+b)
 
-a,b,c=2,1,3
-if a<=b and a<=c:
-    print(b+c)
-elif b<=c and b<=a:
-    print(a+c)
-else:
-    print(a+b)
-    
+#METHOD-2    
 # a,b,c=5,1,2
 # if a>=b and a>=c:
 #     if b>=c: 

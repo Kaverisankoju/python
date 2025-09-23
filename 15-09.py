@@ -1,15 +1,18 @@
 #LIST REVERSE
 # #method-1:using-built in 
+# T.C = O(n), S.C = O(1)
 li=[3,45,67,89,46,30]
 li.reverse()
 print(li)
 
 # #method-2:slicing
+# T.C = O(n square), S.C = O(n)
 li=[3,45,67,89,46,30]
 li=li[::-1]
 print(li)
 
 # #method-3: use insert(index,element)
+# T.C = O(n square), S.C = O(n)
 li=[3,45,67,89,46,30]
 li1=[]
 for i in li:        
@@ -17,11 +20,13 @@ for i in li:
 print(li1)
 
 # #method-4:using index
+# T.C = O(n), S.C = O(1)
 li=[3,45,67,89,46,30]
 for idx in range(len(li)-1,-1,-1):
-    print(li[idx],end=" ")
+    print(li[idx],end=" ")       
 
 # #method-5:using append
+# T.C = O(n), S.C = O(n)
 li=[3,5,97,90,35]
 new_list=[]
 for i in range(len(li)-1,-1,-1):
@@ -29,19 +34,20 @@ for i in range(len(li)-1,-1,-1):
 print(new_list)
 
 
-
 # #method-6:without using extra list(use two pointer approch)
 # #two pointer approch-> when we use 2 variables 
+# T.C = O(n), S.C = O(1)
 li=[3,45,67,89,46,30]
 low=0
 high=len(li)-1
 while low<high:
-    li[low],li[high]=li[high],li[low]
-    low +=1
-    high -=1
+    li[low],li[high] = li[high],li[low]
+    low +=1                             
+    high -=1                           
 print(li)    #inplace reverse
 
 # #1st half reverse 2nd constant
+# T.C = O(n), S.C = O(1)
 li=[65,87,90,34,56,20,30]
 low=0
 high=len(li)//2
@@ -53,6 +59,7 @@ print(li)
 
 
 # #2nd half reverse and 1st half contant
+# T.C = O(n), S.C = O(1)
 li=[65,87,90,34,56,20,30]
 low = len(li)//2
 high = len(li)-1
@@ -133,8 +140,8 @@ sum_of_digits_in_list(li)
 
 # find max element in the number
 def max_digit_in_num(n):
-    max=0
-    while n>0:
+    max = 0
+    while n > 0:
         digit = n%10
         if digit > max:
             max = digit

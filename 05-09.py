@@ -111,7 +111,6 @@ v7.display()
 
 print("\n---Class method---")
 Vechicle.company_name()
-
 print("\n---static method---")
 Vechicle.vechicle_category()
 Electric.electric_info()

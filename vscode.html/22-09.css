@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-container {
+    width: 500px;
+    height: 500px;
+    border: 0px solid;
+    overflow-y: auto;
+    background-color: rgba(240, 248, 255, 0.247);
+    padding: 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+
+input[type="radio"] {
+    display: none;
+}
+
+
+.tab {
+    display: inline-block;
+    padding: 10px 120px;
+    background-color: #eaeaea;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+.tab:hover {
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+}
+
+
+.menu1, .menu2 {
+    display: none;
+}
+
+#text1:checked ~ .text-container > .menu1 {
+    display: block;
+}
+
+#text2:checked ~ .text-container > .menu2 {
+    display: block;
+}
+
+
+#text1:checked ~ .container label[for="text1"],
+#text2:checked ~ .container label[for="text2"] {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.menu1,.menu2>h3,p{
+    color: rgba(0, 0, 0, 0.568);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}

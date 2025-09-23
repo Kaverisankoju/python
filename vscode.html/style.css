@@ -1,0 +1,48 @@
+*{
+    color:black ;
+    background-color:lightblue ;
+    
+}
+.section1{
+    background-color:black;
+}
+.mainsection{
+    background-color: lightblue;
+}
+.navsection{
+    color: blue;
+}
+
+/* #home{
+    background-color:lightblue;
+}
+#about{
+    background-color:lightblue;
+}
+#projects{
+    background-color:lightblue;
+}
+#Table{
+    background-color:floralwhite;
+}
+#Video{
+    background-color:lightblue;
+}
+#Map{
+    background-color:floralwhite;
+}
+#Audio{
+    background-color:lightblue;
+} */
+input[type="submit"] {
+    background-color: green;  
+    color: white;             
+    padding: 5px 10px;       
+    border: none;              
+    border-radius: 5px;        
+    font-size: 16px;           
+    cursor: pointer;           
+}
+#contact{
+    background-color: lavender;
+}

@@ -1,0 +1,127 @@
+/* .img-container1{
+  width: 500px;
+  height: 500px;
+  border: 2px double;
+  color: aquamarine;
+  background-color: blue;
+
+}
+.img-container2{
+  width: 450px;
+  height: 450px;
+  border: 2px solid;
+  color: brown;
+  background-color: blueviolet;
+
+}
+.img-container3{
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  color:black;
+  background-color: red;
+  /* margin-left: 30px;   
+  margin-top: 30px;  */
+  
+/* } */
+/* *{
+  margin: 0;
+  padding: 0;
+}
+.nav-container{
+  width: 100%;
+  height: 30px;
+  background-color: blue;
+  color: aliceblue;
+  padding: 10px;
+  font-size: larger;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 1000;
+}
+
+.span-container{
+  background-color: black;
+  color: aliceblue;
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  font-size:larger;
+  position: fixed;
+  
+}
+.nav-container1{
+  width: 60px;
+  height: 100%;
+  background-color:lightblue;
+  color: aliceblue;
+  padding: 10px;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 200px;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 1000;
+} */
+
+/* *{
+  margin: 0;
+  padding: 0;
+}
+.main-container{
+  border: 2px solid;
+  width: 90%;
+  margin-left: 70px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+}
+.img-container{
+  display: flex;
+  border: 2px solid;
+  padding: 30px;
+  width: 90%;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  gap: 30px;
+  border-radius: 50px;
+}
+.img1{
+  width: 100%;
+  
+}
+img{
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  border-radius: 200px;
+  
+}
+.img-container p{
+  position: absolute;
+  top: 140px;
+  margin-left: 90px;
+  background-color: black;
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 9px;
+}
+ */
+
+.img-cointainer{
+  display: flex;
+  border: 2px solid;
+}

@@ -1,0 +1,31 @@
+
+body{
+  background-color: aliceblue;
+}
+.first,.second,.third{
+    width: 70%;
+    height: 30px;
+    border: 2px solid;
+    background-color: rgba(0, 0, 0, 0.13);
+    margin-top: 10px;
+    overflow: hidden;
+}
+.first>.percentage{
+    width: 25%;
+    height: 100%;
+    background-color: green;
+    text-align: center;
+   
+}
+.second>.percentage{
+    width: 50%;
+    height: 100%;
+    background-color:orange;
+    text-align: center;
+}
+.third>.percentage{
+    width: 75%;
+    height: 100%;
+    background-color:red;
+    text-align: center;
+}

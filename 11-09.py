@@ -78,11 +78,11 @@ class Department:
         print("teachers :",self.teachers)
         print("students :",self.students)
 class Dept:
-    def __init__(self,departments):
-        self.departments=departments
+    def __init__(self,department):
+        self.department=department
         self.departments=[]
     def get_dept(self):
-        print("departments:",self.departments)
+        print("departments:",self.department)
     def add_dept(self,department):
         self.departments.append(department)
     def dept_info(self):
@@ -129,6 +129,7 @@ d1.summary_info()
 d2=Dept(1)
 d2=Dept(2)
 d2=Dept(2)
+d2.departments
 d2.add_dept(33)
 d2.add_dept(44)
 d2.dept_info()
