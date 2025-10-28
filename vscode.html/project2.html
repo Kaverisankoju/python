@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESTAURANT</title>
+    <link rel="stylesheet" href="project2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+   <!-- <div class="nav-container">
+    <div class="itemitem1">TASTE</div>
+    </div>
+    <div class="container">
+    <div class="itemitem2">Home</div>
+    <div class="itemitem3">About</div>
+    <div class="itemitem4">Offer</div>
+    <div class="itemitem5">Menu</div>
+    <div class="itemitem6">News</div>
+    <div class="itemitem7">Gallery</div>
+    <div class="itemitem8">Contact</div>
+   </div> -->
+   <div class="navbar">
+  <div class="logo"><a href="#home">TASTE</a></div>
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#offer">Offer</a>
+    <a href="#menu">Menu</a>
+    <a href="#news">News</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+
+   <div class="img-container reveal up" id="home">
+   <img src="./image/restaurant.png" alt="">
+   <div class="overlay"></div>
+   <h1>Welcome To Taste Restaurant</h1>
+   <p>A free template for Restaurant Websites Distributed by <a href="https://themewagon.com/">ThemeWagon</a></p>
+   <div class="button">
+    <input type="submit" value="Reservation" id="openPopup">
+   </div>
+   </div>
+  
+  <div class="popup" id="popupForm">
+  <div class="popup-content">
+    <span class="close" id="closePopup">&times;</span>
+    <h2>Table Reservation</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="date">Date</label>
+      <input type="date" id="date" required>
+
+      <label for="time">Time</label>
+      <input type="time" id="time" required>
+
+      <label for="people">No. of People</label>
+      <input type="number" id="people" min="1" placeholder="e.g., 4" required>
+
+      <button type="submit" class="reserve-btn">Reserve Now</button>
+    </form>
+  </div>
+</div><br><br><br><br><br><br>
+
+
+
+   <div class="about-container reveal left" id="about">
+    <div class="content-container reveal up">
+    <h3>Our Story</h3>
+    <h1>Welcome</h1>
+    <div class="para-container">
+        <div class="para1"><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p></div><br>
+        <div class="para2"><p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p></div>
+    </div>
+    <input type="button" value="Our Story">
+  </div>
+    <div class="img-container1">
+    <img src="https://themewagon.github.io/taste/images/about_img_1.jpg" alt="">
+   </div>
+  </div>
+
+
+  <div class="container1" id="offer">
+    <div class="content-container1 reveal up">
+    <h3>Our Offers</h3>
+    <h1>Offers & Promos</h1>
+    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+   </div>
+
+   
+   <div class="items" id="home">
+   <div class="item item1 reveal up"><img src="./image/food1.png" alt="">
+    <p>$39.50</p>
+    <h3>Beef with Sauce</h3>
+    <div class="para3">
+    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p></div>
+    <!-- <input type="button" value="Oder Now!"> -->
+     <a href="#home" class="order-btn">Order Now!</a>
+  </div>
+
+  <div class="item item2 reveal up" id="home"><img src="./image/food2.png" alt="">
+  <p>$39.50</p>
+  <h3>Fresh Salmon Fish</h3>
+  <div class="para4"><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p></div>
+  <!-- <input type="button" value="Order Now!"> -->
+   <a href="#home" class="order-btn">Order Now!</a>
+</div>
+
+   <div class="item item3 reveal up" id="home"><img src="./image/food3.png" alt="">
+  <p>$39.50</p>
+<h3>Beef Ribs</h3>
+<div class="para5"><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p></div>
+<!-- <input type="button" value="Order Now!"> -->
+ <a href="#home" class="order-btn">Order Now!</a>
+</div>
+</div></div>
+
+
+   
+<div class="menu-container reveal up" id="menu" >
+  <h1>Today's Menu</h1>
+  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+  <input type="radio" name="menu" id="breakfast" checked>
+  <input type="radio" name="menu" id="lunch">
+  <input type="radio" name="menu" id="dinner">
+  <div class="timing reveal up">
+    <label class="itema item1" for="breakfast">BREAKFAST</label>
+    <label class="itema item2" for="lunch">LUNCH</label>
+    <label class="itema item3" for="dinner">DINNER</label>
+  </div>
+  <div class="text-container">
+    <div class="menu1 reveal up">
+     <div class="menu-item1 reveal up">
+      <div class="text text1 reveal up"><img src="./image/beakfast1.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+      <div class="text text2 reveal up"><h3>Salted Fried Chicken</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$35.50</h2></div>
+
+      <div class="text text3 reveal up"><img src="./image/breakfast2.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+      <div class="text text4 reveal up"><h3>Italian Sauce Mushroom</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$35.50</h2></div>
+      </div>
+
+     <div class="menu-item1 reveal up">
+      <div class="text text5 reveal up"><img src="./image/breakfast2.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+      <div class="text text6 reveal up"><h3>Italian Sauce Mushroom</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$24.50</h2></div>
+  
+      <div class="text text7 reveal up"><img src="./image/beakfast1.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+      <div class="text text8 reveal up"><h3>Salted Fried Chicken</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$12.50</h2></div>
+    </div>
+      <div class="menu-item1 reveal up">
+      <div class="text text9 reveal up"><img src="./image/breakfast3.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+      <div class="text text10 reveal up"><h3>Fried Potato w/ Garlic</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$14.50</h2></div>
+
+      <div class="text text11 reveal up"><img src="./image/breakfast3.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+      <div class="text text12 reveal up"><h3>Fried Potato w/ Garlic</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$18.50</h2></div>
+    </div>
+    </div>
+    
+    <div class="menu2 reveal up">
+      <div class="menu-item2 reveal up">
+        <div class="text text1 reveal up"><img src="./image/breakfast3.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+        <div class="text text2 reveal up"><h3>Fried Potato w/ Garlic</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$14.50</h2></div>
+        <div class="text text3 reveal up"><img src="./image/breakfast3.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+        <div class="text text4 reveal up"><h3>Fried Potato w/ Garlic</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$18.50</h2></div>
+      </div>
+
+         <div class="menu-item2 reveal up">
+        <div class="text text5 reveal up"><img src="./image/beakfast1.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+        <div class="text text6 reveal up"><h3>Salted Fried Chicken</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$35.50</h2></div>
+        <div class="text text7 reveal up"><img src="./image/breakfast2.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+        <div class="text text8 reveal up"><h3>Italian Sauce Mushroom</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$35.50</h2></div>
+        </div>
+        <div class="menu-item2 reveal up">
+        <div class="text text9 reveal up"><img src="./image/breakfast2.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+        <div class="text text10 reveal up"><h3>Italian Sauce Mushroom</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$35.50</h2></div>
+        <div class="text text11 reveal up"><img src="./image/beakfast1.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+        <div class="text text12 reveal up"><h3>Salted Fried Chicken</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$35.50</h2></div>
+        </div>
+    </div>
+
+    <div class="menu3 reveal up">
+    <div class="menu-item3 reveal up">
+       <div class="text text1 reveal up"><img src="./image/breakfast2.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+       <div class="text text2 reveal up"><h3>Italian Sauce Mushroom</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$24.50</h2></div>
+       <div class="text text3 reveal up"><img src="./image/breakfast3.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+       <div class="text text4 reveal up"><h3>Fried Potato w/ Garlic</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$18.50</h2></div>
+    </div>
+    <div class="menu-item3 reveal up">
+      <div class="text text5 reveal up"><img src="./image/beakfast1.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+      <div class="text text6 reveal up"><h3>Salted Fried Chicken</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$35.50</h2></div>
+      <div class="text text7 reveal up"><img src="./image/breakfast2.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+      <div class="text text8 reveal up"><h3>Italian Sauce Mushroom</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$35.50</h2></div>
+    </div>
+
+    <div class="menu-item3 reveal up">
+      <div class="text text9 reveal up"><img src="./image/breakfast3.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+      <div class="text text10 reveal up"><h3>Fried Potato w/ Garlic</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$14.50</h2></div>
+      <div class="text text11 reveal up"><img src="./image/beakfast1.png" alt=""></div>&nbsp;&nbsp;&nbsp;
+      <div class="text text12 reveal up"><h3>Salted Fried Chicken</h3><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p><h2>$12.50</h2></div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="container1" id="news">
+    <div class="content-container1 reveal up"><br><br><br><br><br><br>
+    <!-- <h3>Our Offers</h3> -->
+    <h1>News & Events</h1>
+    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+   </div>
+
+   <div class="items" id="home">
+   <div class="item item1 reveal up"><img src="./image/food1.png" alt="">
+    <p>$39.50</p>
+    <h3>Beef with Sauce</h3>
+    <div class="para3">
+    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p></div>
+    <!-- <input type="button" value="Oder Now!"> -->
+     <a href="#home" class="order-btn">Order Now!</a>
+  </div>
+
+  <div class="item item2 reveal up"><img src="./image/food2.png" alt="">
+  <p>$39.50</p>
+  <h3>Fresh Salmon Fish</h3>
+  <div class="para4"><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p></div>
+  <!-- <input type="button" value="Order Now!"> -->
+  <a href="#home" class="order-btn">Order Now!</a>
+
+</div>
+
+<div class="item item3 reveal up"><img src="./image/food3.png" alt="">
+<p>$39.50</p>
+<h3>Beef Ribs</h3>
+<div class="para5"><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p></div>
+<!-- <input type="button" value="Order Now!"> -->
+ <a href="#home" class="order-btn">Order Now!</a>
+</div>
+<!-- <a href="#home" class="order-btn">Order Now!</a> -->
+</div></div>
+   
+<div class="foodgallery" id="gallery">
+  <div class="content-container2 reveal up">
+    <h1>Food Gallery</h1>
+    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+  </div>
+  <div class="images1 reveal up">
+    <div class="img img1"><img src="./image/beakfast1.png" alt=""></div>
+    <div class="img img2"><img src="./image/breakfast2.png" alt=""></div>
+    <div class="img img3"><img src="./image/breakfast3.png" alt=""></div>
+  </div>
+
+  <div class="images2 reveal up">
+    <div class="img img4"><img src="./image/breakfast2.png" alt=""></div>
+    <div class="img img5"><img src="./image/breakfast3.png" alt=""></div>
+    <div class="img img6"><img src="./image/beakfast1.png" alt=""></div>
+  </div>
+</div>
+
+<div class="contact-container" id="contact">
+  <div class="contact reveal up">
+    <h1>Contact Us</h1>
+    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+  </div>
+  <form class="reveal up">
+  <input type="text"  placeholder="Enter Your Name"><br>
+  <input type="email"  placeholder="Enter Your Email"><br>
+  <textarea  placeholder="Write Your Message"></textarea>
+  <button type="Submit">Send Message</button>
+  </form>
+</div>
+
+
+
+<script>
+  function revealOnScroll() {
+    const reveals = document.querySelectorAll(".reveal");
+    for (let i = 0; i < reveals.length; i++) {
+      const windowHeight = window.innerHeight;
+      const elementTop = reveals[i].getBoundingClientRect().top;
+      const elementVisible = 100;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  window.addEventListener("scroll", revealOnScroll);
+</script>
+
+
+<script>
+  
+  const openPopup = document.getElementById("openPopup");
+  const popupForm = document.getElementById("popupForm");
+  const closePopup = document.getElementById("closePopup");
+
+  
+  openPopup.addEventListener("click", () => {
+    popupForm.style.display = "flex";
+  });
+
+  
+  closePopup.addEventListener("click", () => {
+    popupForm.style.display = "none";
+  });
+
+  
+  window.addEventListener("click", (e) => {
+    if (e.target === popupForm) {
+      popupForm.style.display = "none";
+    }
+  });
+</script>
+
+</body>
+</html>
