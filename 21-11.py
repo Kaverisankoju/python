@@ -8,7 +8,7 @@ try:
     conn = mysql.connector.connect(
         host = 'localhost',
         user = 'root',
-        password = 'Kaveri@123',   
+        password = '',   #sql password
         database = '56r',
         autocommit = False
     )
